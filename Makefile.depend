@@ -1,0 +1,4 @@
+log.o: log.c log.h utils.h
+network.o: network.c network.h utils.h log.h
+udptunnel.o: udptunnel.c utils.h log.h network.h
+utils.o: utils.c utils.h
